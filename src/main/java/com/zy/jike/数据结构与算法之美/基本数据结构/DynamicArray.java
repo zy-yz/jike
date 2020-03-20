@@ -38,7 +38,7 @@ public class DynamicArray<T> {
         data[index] = e;
     }
 
-    //查看数组是否包含元素e
+    //查看数组是否包含元素T e
     public boolean contains(T e){
         for (int i=0;i<size;i++){
             if(data[i].equals(e)){
