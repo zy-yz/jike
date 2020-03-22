@@ -149,6 +149,11 @@ public class LinkedListAlgo {
         System.out.println();
     }
 
+    /**
+     * @Description    寻找中间结点
+     * @param [list]
+     * @return com.zy.jike.数据结构与算法之美.基本数据结构.linkedlist.LinkedListAlgo.Node
+     */
     public static Node findMiddleNode(Node list){
         if (list == null){
             return null;
