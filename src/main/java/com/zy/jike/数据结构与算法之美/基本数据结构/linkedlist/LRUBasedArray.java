@@ -36,6 +36,8 @@ public class LRUBasedArray<T> {
      * 模拟访问某个值
      * */
 
+
+
     public void offer(T object){
         if(object == null){
             throw new IllegalArgumentException("该容器不支持null");
@@ -91,9 +93,18 @@ public class LRUBasedArray<T> {
         }
     }
 
+
+    /** 
+     *
+     * @author peppers
+     * @date 2020/3/21 11:43 上午
+     * @param [object]
+     * @return boolean
+     */
     public boolean isContain(T object) {
         return holder.containsKey(object);
     }
+
 
     public boolean isEmpty() {
         return count == 0;
