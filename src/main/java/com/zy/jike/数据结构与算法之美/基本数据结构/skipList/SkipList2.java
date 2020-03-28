@@ -151,7 +151,9 @@ public class SkipList2 {
         }
 
         // 更新层高
-        if (levelCount < level) levelCount = level;
+        if (levelCount < level) {
+            levelCount = level;
+        }
     }
 
     public void delete(int value) {
@@ -295,6 +297,7 @@ public class SkipList2 {
         list2.insert2(5);
         System.out.println();
         list2.printAll_beautiful();
+
 
 
     }
